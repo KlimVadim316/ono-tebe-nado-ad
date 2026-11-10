@@ -107,9 +107,15 @@
   display: block;
 }
 
-.aligned-text_left { text-align: left; }
-.aligned-text_center { text-align: center; }
-.aligned-text_right { text-align: right; }
+.aligned-text_left { 
+    text-align: left; 
+}
+.aligned-text_center { 
+    text-align: center; 
+}
+.aligned-text_right { 
+    text-align: right; 
+}
 
 .cover__description {
   position: absolute;
