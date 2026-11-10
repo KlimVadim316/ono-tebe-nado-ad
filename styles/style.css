@@ -11,6 +11,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   min-height: 293px;
+  height: 293px;
   padding: 0 50px;
 }
 
@@ -81,6 +82,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 757px;
+  min-height: 757px;
   padding: 0 50px 50px 50px;
   color: #fff;
   background-image: url('../images/cover.jpg');
@@ -156,6 +158,8 @@
   padding: 60px 24px;
   width: 1052px;
   margin: 0 auto;
+  height: 723px;
+  flex-shrink: 0;
 }
 
 .lots__heading {
@@ -244,6 +248,8 @@
   width: 1052px;
   margin: 0 auto;
   min-height: 595px;
+  height: 180px;
+  flex-shrink: 0;
 }
 
 .about__column_left {
