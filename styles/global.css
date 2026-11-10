@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
+  position: relative;
   margin: 0 auto;
-  height: 3028px;
   width: 1100px;
-  display: flex;
-  flex-direction: column;
+  height: 3028px;
   padding: 0;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
