@@ -1,3 +1,4 @@
+/* ==================== Обложка (Overlay) ==================== */
 .overlay {
   position: absolute;
   inset: 0;
@@ -6,6 +7,7 @@
   pointer-events: none;
 }
 
+/* ==================== Шапка (Header) ==================== */
 .header {
   position: absolute;
   top: 0;
@@ -52,6 +54,7 @@
   width: 148px;
 }
 
+/* ==================== Адрес (Address) ==================== */
 .address {
   display: flex;
   flex-direction: column;
@@ -79,6 +82,7 @@
   justify-self: end;
 }
 
+/* ==================== Главная картинка (Cover) ==================== */
 .cover {
   position: absolute;
   top: 293px;
@@ -107,14 +111,16 @@
   display: block;
 }
 
-.aligned-text_left { 
-    text-align: left; 
+.aligned-text_left {
+  text-align: left;
 }
-.aligned-text_center { 
-    text-align: center; 
+
+.aligned-text_center {
+  text-align: center;
 }
-.aligned-text_right { 
-    text-align: right; 
+
+.aligned-text_right {
+  text-align: right;
 }
 
 .cover__description {
@@ -154,6 +160,7 @@
   background-color: #fff;
 }
 
+/* ==================== Лоты (Lots) ==================== */
 .lots {
   position: absolute;
   top: 1050px;
@@ -201,9 +208,17 @@
   background-position: center;
 }
 
-.card_type_film { background-image: url('../images/card-lot-01.jpg'); }
-.card_type_book { background-image: url('../images/card-lot-02.jpg'); }
-.card_type_picture { background-image: url('../images/card-lot-03.jpg'); }
+.card_type_film {
+  background-image: url('../images/card-lot-01.jpg');
+}
+
+.card_type_book {
+  background-image: url('../images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../images/card-lot-03.jpg');
+}
 
 .card__title,
 .card__text {
@@ -237,6 +252,7 @@
   border-bottom: 1px solid #000;
 }
 
+/* ==================== Об аукционе (About) ==================== */
 .about {
   position: absolute;
   top: 2073px;
@@ -288,6 +304,7 @@
   line-height: 1.4;
 }
 
+/* ==================== Подвал (Footer) ==================== */
 .footer {
   position: absolute;
   top: 2848px;
